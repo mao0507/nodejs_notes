@@ -140,7 +140,7 @@ $ npm i body-parser
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon src/index.ts", 
+    "serve": "nodemon src/index.ts",
     "build": "tsc --project ./"
   },
   "author": "mao",
@@ -151,11 +151,14 @@ $ npm i body-parser
     "typescript": "^5.0.2"
   },
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "nodemon": "^2.0.21",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "yarn": "^1.22.19"
   }
 }
+
 
 
 ```
